@@ -1,16 +1,14 @@
 ---
-title: "Syntax highlighting with mdsvex"
-date: "2023-01-05"
-updated: "2023-01-05"
+title: "BLOG 4"
+date: "2025-04-29"
+updated: ""
 categories:
   - "sveltekit"
-  - "web"
-  - "css"
   - "markdown"
-coverImage: "/images/linus-nylund-Q5QspluNZmM-unsplash.jpg"
+coverImage: "/images/bl4.jpg"
 coverWidth: 16
 coverHeight: 9
-excerpt: This post shows you how syntax highlighting works here.
+excerpt: Mô tả cho blog 4.
 ---
 
 mdsvex has automatic, built-in syntax highlighting with [Prism.js](https://prismjs.com/); just include the language name after the triple backticks, like so:

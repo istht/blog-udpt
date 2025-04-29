@@ -1,13 +1,13 @@
 ---
-title: Hệ thống phân tán
-date: 2025-04-29
-author: Trần Huyền Trang
+title: "Hệ thống phân tán"
+date: "2025-04-29"
+author: "Trần Huyền Trang"
 categories:
   - "sveltekit"
   - "web"
   - "css"
   - "markdown"
-coverImage: "/images/htpt.png"
+coverImage: "/images/DCS.jpg"
 coverWidth: 16
 coverHeight: 9
 excerpt: Blog này cung cấp cái nhìn tổng quan về hệ thống phân tán, bao gồm định nghĩa, ứng dụng thực tế, các khái niệm và thuật ngữ quan trọng, ví dụ minh họa dễ hiểu, cùng các mô hình kiến trúc phổ biến như Client-Server, Microservices và Serverless.

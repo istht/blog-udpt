@@ -1,15 +1,14 @@
 ---
-title: "A Markdown post with a Svelte component"
-date: "2023-04-28"
-updated: "2023-04-28"
+title: "BLOG 3"
+date: "2025-04-29"
+updated: ""
 categories:
   - "sveltekit"
   - "markdown"
-  - "svelte"
-coverImage: "/images/jerry-zhang-ePpaQC2c1xA-unsplash.jpg"
+coverImage: "/images/bl3.jpg"
 coverWidth: 16
 coverHeight: 9
-excerpt: This post demonstrates how to include a Svelte component in a Markdown post.
+excerpt: Mô tả cho blog 3.
 ---
 
 <script>

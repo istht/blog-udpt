@@ -5,7 +5,7 @@
  * PLEASE BE SURE TO UPDATE THEM ALL! Thank you!
  **/ 
 
-export const siteTitle = 'My Awesome Blog'
+export const siteTitle = 'BLOG cua THT'
 export const siteDescription = 'Built with the SvelteKit Static Blog Starter'
 export const siteURL = 'example.com'
 export const siteLink = 'https://github.com/josh-collinsworth/sveltekit-blog-starter'
@@ -20,10 +20,10 @@ export const navItems = [
 		title: 'Blog',
 		route: '/blog'
 	}, {
-		title: 'About',
+		title: 'Giới thiệu',
 		route: '/about'
 	}, {
-		title: 'Contact',
+		title: 'Liên hệ',
 		route: '/contact' 
 	},
 ]

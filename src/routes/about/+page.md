@@ -1,21 +1,24 @@
 <svelte:head>
-	<title>About</title>
+	<title>Giới thiệu</title>
 </svelte:head>
 
-# About
+# Giới thiệu
 
-This is an example of how you can have _markdown_ in page content!
+Xin chào! Mình là **Trần Huyền Trang**, hiện đang là sinh viên năm 3 ngành **Công nghệ thông tin** tại **Đại học Phenikaa**.
 
-- How
-- **Cool**
-- Is _that_!?
+- Mã sinh viên: 22012614  
+- Khóa học: K16  
+- Lớp: IT1  
+- Ngày sinh: 27/07/2004  
+- Quê quán: Hà Nội  
+- Giới tính: Nữ  
 
-If you like, you can also import markdown into any Svelte page.
+## Sở thích và thói quen
 
-Anyway, you can find this file here:
+Mình yêu thích lập trình web, đặc biệt là phát triển giao diện với **SvelteKit** và thiết kế hiện đại với **CSS**. Ngoài ra, mình còn thích viết blog chia sẻ kiến thức, vẽ minh họa đơn giản và đọc sách về công nghệ.
 
-```
-src/routes/about/+page.md
-```
+Khi rảnh, mình thường nghe nhạc Lofi, đi dạo buổi tối hoặc thử nấu vài món ăn mới. Mình cũng có thói quen lên kế hoạch chi tiết cho từng ngày và thích làm việc trong không gian yên tĩnh.
 
-Here's the [home link](/) if you wanna go back.
+---
+
+Nếu bạn muốn tìm hiểu thêm về mình hoặc dự án mình đang làm, hãy ghé thăm [**_trang chủ_**](/)!

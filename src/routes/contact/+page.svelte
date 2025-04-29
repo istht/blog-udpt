@@ -1,58 +1,57 @@
 <script>
 	import { createBubbler, preventDefault } from 'svelte/legacy';
-
 	const bubble = createBubbler();
-	import Callout from '$lib/components/Callout.svelte'
+	import Callout from '$lib/components/Callout.svelte';
 </script>
 
-
 <svelte:head>
-	<title>Contact</title>
+	<title>Liên hệ</title>
 </svelte:head>
 
+<h1>Liên hệ với mình</h1>
 
-<h1>Contact</h1>
+Bạn muốn trao đổi, góp ý hoặc kết nối? Hãy để lại thông tin của bạn, mình sẽ liên hệ lại sớm nhất có thể.  
+Bạn cũng có thể tìm thấy mình qua email: **tranhuyentrang@gmail.com** hoặc GitHub, LinkedIn.
 
-This starter was made by Josh Collinsworth. You can <a rel="external" href="https://joshcollinsworth.com/contact">get in touch with Josh here</a>.
+<Callout>Form này hiện chỉ mang tính minh họa, chưa được kết nối backend.</Callout>
 
-If you're using this starter for your own site, feel free to delete this page, or replace it with a contact page of your own. (I'm a big fan of <a href="https://docs.netlify.com/forms/setup/">Netlify forms</a>, personally.)
-
-<Callout>This form does nothing! It's just here to show default styling.</Callout>
-
-<form onsubmit={preventDefault(bubble('submit'))}>
+<form on:submit={preventDefault(bubble('submit'))}>
 	<div class="form-section">
-		<label for="name">Name</label>
-		<input type="text" id="name" placeholder="First name" />
+		<label for="name">Họ và tên</label>
+		<input type="text" id="name" placeholder="Nhập họ tên của bạn" required />
 	</div>
 	
 	<div class="form-section">
 		<label for="email">Email</label>
-		<input type="email" id="email" placeholder="Email address" />
+		<input type="email" id="email" placeholder="Địa chỉ email" required />
+	</div>
+
+	<div class="form-section">
+		<label for="phonenumber">Số điện thoại</label>
+		<input type="phonenumber" id="phonenumber" placeholder="Số điện thoại" required />
+	</div>
+
+	<div class="form-section">
+		<label for="message">Nội dung</label>
+		<textarea id="message" rows="5" placeholder="Bạn muốn nhắn gì với mình?" required></textarea>
 	</div>
 
 	<fieldset>
-		<legend>
-			Which option?
-		</legend>
-
+		<legend>Bạn muốn mình phản hồi qua đâu?</legend>
 		<div>
-			<input type="radio" name="s" id="s1" value="s1">
-			<label for="s1">Option 1</label>
+			<input type="radio" name="reply" id="reply-email" value="email" checked>
+			<label for="reply-email">Email</label>
 		</div>
 		<div>
-			<input type="radio" name="s" id="s2" value="s2">
-			<label for="s2">Option 2</label>
-		</div>
-		<div>
-			<input type="radio" name="s" id="s3" value="s3">
-			<label for="s3">Option 3</label>
+			<input type="radio" name="reply" id="reply-phone" value="phone">
+			<label for="reply-phone">Số điện thoại</label>
 		</div>
 	</fieldset>
 
 	<div class="form-section">
-		<input type="checkbox" id="c1" >
-		<label for="c1">Sign me up for something!</label>
+		<input type="checkbox" id="subscribe">
+		<label for="subscribe">Gửi cho tôi bản tin nếu có bài viết mới</label>
 	</div>
 
-	<input type="submit" value="Do nothing!">
+	<input type="submit" value="Gửi liên hệ">
 </form>

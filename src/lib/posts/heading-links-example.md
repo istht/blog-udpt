@@ -1,14 +1,14 @@
 ---
-title: "Automatic heading links in mdsvex"
-date: "2023-10-26"
-updated: "2023-10-26"
+title: "BLOG 2"
+date: "2025-04-29"
+updated: ""
 categories:
   - "sveltekit"
   - "markdown"
-coverImage: "/images/jefferson-santos-fCEJGBzAkrU-unsplash.jpg"
+coverImage: "/images/bl2.jpg"
 coverWidth: 16
 coverHeight: 9
-excerpt: Check out how heading links work with this starter in this post.
+excerpt: Mô tả cho blog 2.
 ---
 
 Here are some headings:
