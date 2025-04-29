@@ -1,7 +1,7 @@
 ---
 title: "BLOG 4"
-date: "2025-04-29"
-updated: ""
+date: "2025-04-28"
+updated: "2025-04-29"
 categories:
   - "sveltekit"
   - "markdown"

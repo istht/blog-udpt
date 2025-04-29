@@ -1,6 +1,7 @@
 ---
 title: "Hệ thống phân tán"
-date: "2025-04-29"
+date: "2025-04-28"
+updated: "2025-04-29"
 author: "Trần Huyền Trang"
 categories:
   - "sveltekit"
