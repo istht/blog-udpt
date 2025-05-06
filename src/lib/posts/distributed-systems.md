@@ -1,7 +1,7 @@
 ---
 title: "Hệ thống phân tán"
 date: "2025-04-28"
-updated: "2025-04-29"
+updated: "2025-055-06"
 author: "Trần Huyền Trang"
 categories:
   - "sveltekit"
@@ -104,5 +104,14 @@ Một ứng dụng lưu trữ ảnh như Google Photos:
 - Serverless Functions xử lý resize ảnh khi upload.
 
 # Hình ảnh minh họa
+**Client-Server Model**
+![Distributed System Architecture](/images/CSM.png)
+**Three-Tier Architecture**  
+![Distributed System Architecture](/images/TTA.png)
+**Microservices Architecture** 
+![Distributed System Architecture](/images/MA.png)
+**Peer-to-Peer (P2P) Architecture** 
+![Distributed System Architecture](/images/P2P.png)
+**Serverless Architecture** 
+![Distributed System Architecture](/images/SA.jpg)
 
-![Distributed System Architecture](https://upload.wikimedia.org/wikipedia/commons/4/49/Distributed_system.svg)
