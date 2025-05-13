@@ -92,7 +92,9 @@ Trong ngành công nghệ thông tin, có nhiều bài toán đụng phải vi�
 
 # 3. Viết ra giấy rồi chụp ảnh, liệt kê các trường hợp nào thì nên dùng thread, trường hợp nào nên dùng process, khi nào thì nên dùng cả hai. Viết dưới dạng table và đưa ví dụ các bài toán
 
-![Distributed System Architecture](/images/bl2.jpg)
+![Distributed System Architecture](/images/anhtay1.jpg)
+![Distributed System Architecture](/images/anhtay2.jpg)
+
 
 # 4. Report, tìm hiểu 1. chatGPT training tập dữ liệu lớn bằng distributed system như thế nào. Đưa link nguồn tài liệu tham khảo từ google
 
